@@ -21,8 +21,10 @@ public class Review {
     private LocalDateTime created;
     private LocalDateTime updated;
 
-    public Review(String body) {
+    public Review(String body, LocalDateTime created, LocalDateTime updated) {
         this.body = body;
+        this.created = created;
+        this.updated = updated;
     }
 
 }
